@@ -1,2 +1,2 @@
 # WebDev_Course
-Practice files
+Practice files on HTML CSS and JS
