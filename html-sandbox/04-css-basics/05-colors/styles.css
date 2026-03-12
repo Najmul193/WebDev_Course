@@ -1,3 +1,15 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.sporty{
+  color: rebeccapurple;
+}
+
+.casual{
+  color: lightcoral;
+}
+
+.formal{
+  color: darkcyan;
+}

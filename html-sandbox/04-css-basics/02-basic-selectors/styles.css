@@ -1,0 +1,40 @@
+/* h2{
+    color: red;
+    font-size: 30px;
+}
+
+a{
+  color: blue 
+  text-decoration: none; 
+} */
+
+body{
+    font-family: 'Arial', sans-serif;
+    border: 3px solid black;
+}
+
+.sporty{
+    color: red;
+}
+
+.casual{
+    color: blue;
+}
+
+.formal{
+    color: brown;
+}
+
+#container{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.sporty, .casual, .formal{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#container p{
+    background-color: thistle;
+}
