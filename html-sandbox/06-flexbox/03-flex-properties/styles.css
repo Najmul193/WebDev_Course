@@ -1,3 +1,23 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.flex-container {
+  background-color: lightblue;
+  width : 100%;
+
+
+}
+
+.flex-item{
+  background-color: coral;
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+
+}
+
+.item1{
+  /* flex-shrink: 1; */
+  flex-grow: 1;
+}
