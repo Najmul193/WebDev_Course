@@ -15,6 +15,7 @@ ul {
 a {
   text-decoration: none;
   color: #333;
+  padding: 10px;
 }
 
 a:hover {
@@ -23,4 +24,50 @@ a:hover {
 
 h2 {
   margin-bottom: 20px;
+}
+
+.header {
+  background-color: coral;
+  padding: 20px;
+  text-indent: 20px;
+}
+
+.main-menu {
+  background-color: #ebe9da;
+  padding: 10px;
+  display: flex;
+}
+
+.main{
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  width: 70%;
+  padding: 30px;
+}
+
+aside {
+  width: 30%;
+  padding: 30px;
+}
+
+
+aside h3{
+  background-color: coral;
+  padding: 20px;
+  text-align: center;
+  margin-right: 40px;
+}
+aside ul{
+  margin-right: 40px;
+}
+aside ul li{
+  margin-right: 40px;
+  background-color: #ebe9da;
+  padding: 5px 20px 5px 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  text-align: center;
 }
