@@ -7,3 +7,45 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+@media screen and (max-width: 300px) {
+  .widescreen {
+    background-color: lightblue;
+  }
+}
+
+@media(max-width: 500px) {
+  .normal {
+    background-color: lightgreen;
+  }
+}
+
+@media(max-width: 700px) {
+  .tablet {
+    background-color: lightcoral;
+  }
+}
+
+@media(max-width: 900px) {
+  .smartphone {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+@media(orientation: landscape) {
+  .landscape {
+    background-color: lightpink;
+  }
+}
+
+@media(max-height: 400px) {
+  .height {
+    background-color: lightgray;
+  }
+}
+
+@media(min-width: 700px) and (max-width: 1200px) {
+  .body {
+    background-color: lightcyan;
+  }
+}
