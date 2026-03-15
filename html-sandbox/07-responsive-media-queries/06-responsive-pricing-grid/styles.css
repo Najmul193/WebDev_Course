@@ -149,3 +149,10 @@ li {
   color: #98ca9e;
   margin-right: 10px;
 }
+
+@media(max-width: 768px) {
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}
