@@ -4,14 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: lightblue;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 header {
-  background-color: lightblue;
+  background-color: var(--primary-color);
   padding: 20px 0;
   text-align: center;
+}
+
+.container{
+  --primary-color: lightblue;
 }
 
 .container {
@@ -26,4 +34,8 @@ header {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-1 {
+  background-color: var(--primary-color);
 }
