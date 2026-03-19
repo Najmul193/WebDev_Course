@@ -6,3 +6,14 @@ img {
   max-width: 900px;
   margin: 70px auto;
 }
+
+
+
+img {
+  max-width: 100%;
+  /* filter: grayscale(); */
+  /* filter: blur(5px); */
+  /* -webkit-filter: grayscale(); */
+  filter: brightness(50%);
+
+}
