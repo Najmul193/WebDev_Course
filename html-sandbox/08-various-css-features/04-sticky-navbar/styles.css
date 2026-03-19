@@ -38,6 +38,13 @@ img {
   color: #fff;
   padding: 10px 0;
   margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header.transparent{
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.8),rgba(0, 0, 255, 0.8));
 }
 
 .header .menu ul {
