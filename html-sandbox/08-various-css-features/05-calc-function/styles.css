@@ -7,3 +7,17 @@
 body {
   font-family: 'Arial', sans-serif;
 }
+
+
+.container {
+  background: black;
+  width: 1000px;
+  height: 200px;
+  display: flex;
+}
+
+.iteam {
+  height: 200px;
+  width: calc(500px - 400px);
+  background: coral;
+}
