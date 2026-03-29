@@ -23,3 +23,22 @@ input {
   width: 100%;
   padding: 5px;
 }
+
+p::first-letter {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+p::first-line {
+  font-weight: bold;
+  color: #555;
+}
+
+p::selection {
+  background-color: #007bff;
+  color: #fff;
+}
+
+input::required {
+  border: 2px solid red;
+}
