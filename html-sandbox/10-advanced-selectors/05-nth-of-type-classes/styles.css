@@ -3,17 +3,31 @@ body {
 }
 
 /*  Style the first li of it's parent */
+ul li:first-of-type {
+  color: red;
+}
 
 /*  Style the last li of it's parent */
+ul li:last-of-type {
+  color: blue;
+}
 
 /*  Style the 3rd item */
-
+ul li:nth-of-type(3) {
+  background-color: #e0e0e0;
+}
 /*  Style the 6th item */
-
+ul li:nth-of-type(6) {
+  background-color: #d0d0d0;
+}
 /*  Style the even items */
-
+ul li:nth-of-type(even) {
+  background-color: #f0f0f0;
+}
 /*  Style the odd items */
-
+ul li:nth-of-type(odd) {
+  background-color: #e0e0e0;
+}
 /* nth-of-type vs nth-child */
 
 /* Using pseudo classes with pseudo elements */
