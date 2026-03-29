@@ -28,3 +28,14 @@ input {
   border-radius: 4px;
   position: relative;
 }
+
+h2::after {
+  content: '⭐';
+  margin-right: 10px;
+}
+
+label.is-required::after {
+  content: '*';
+  color: red;
+  margin-left: 5px;
+}
